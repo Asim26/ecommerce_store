@@ -1,0 +1,26 @@
+.intro-main {
+  background-image: url(../../images/intro-bg.png);
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-div {
+  margin-left: 10%;
+  width: 25%;
+  position: absolute;
+  top: 60%;
+  transform: translate(0, -50%);
+}
+.heading {
+  color: #ff7143;
+  margin-bottom: 4%;
+}
+.heading-tagLine {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+.body-text {
+  margin-bottom: 8%;
+}

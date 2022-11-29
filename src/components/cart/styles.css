@@ -1,0 +1,25 @@
+.cart-details-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.cart-details-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart-details-charges-main {
+  border-top: 2px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.cart-details-charges-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}

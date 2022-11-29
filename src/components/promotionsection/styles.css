@@ -1,0 +1,18 @@
+.promotion-section-main {
+  padding: 0px, margin 0px;
+  background-color: #e4ece6;
+  padding-top: 4%;
+}
+.promo-div-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 4%;
+}
+.promo-logo-style {
+  width: 12%;
+  height: 75%;
+}
+.promo-text {
+  margin-left: 4%;
+}

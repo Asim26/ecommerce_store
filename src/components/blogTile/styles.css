@@ -1,0 +1,15 @@
+.blog-tile-main {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.blog-tile-img {
+  width: 100%;
+}
+.blog-title {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+.blog-desc {
+  margin-bottom: 4%;
+}

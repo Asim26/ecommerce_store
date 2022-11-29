@@ -1,0 +1,15 @@
+.product-tile-main {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.product-tile-img {
+  width: 100%;
+}
+
+.product-title {
+  margin-top: 4%;
+}
+.product-price {
+  color: #941b0c;
+}

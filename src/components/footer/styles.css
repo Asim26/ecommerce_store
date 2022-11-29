@@ -1,0 +1,45 @@
+.footer-main-div {
+  background-color: #f1eeed;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-logo-style {
+  width: 30%;
+}
+.footer-logo-div-text {
+  margin-top: 6%;
+}
+
+.ul-style {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+.footer-email-div-text {
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+.payment-logo {
+  width: 12%;
+  margin-right: 6%;
+}
+.social-icons-div {
+  margin-top: 4%;
+}
+.email-input-style {
+  background-color: transparent;
+  width: 70%;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+}
+.subscribe-btn {
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+}

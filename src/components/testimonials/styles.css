@@ -1,0 +1,27 @@
+.testimonials-main {
+  background: #f8f8f8;
+  height: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.star-style {
+  width: 5%;
+  margin-right: 3%;
+}
+.testimonial-img {
+  width: 100%;
+}
+.text-div-t {
+  position: relative;
+  top: 40%;
+  transform: translate(0, -50%);
+  width: 70%;
+}
+.testimonial-heading {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.testimonial-text {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}

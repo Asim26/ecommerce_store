@@ -1,0 +1,23 @@
+.featured-img {
+  width: 100%;
+  /* margin-bottom: 2%; */
+}
+.featured-main {
+}
+.featured-text-div {
+  display: flex;
+  justify-content: center;
+}
+.featured-heading-one {
+  position: relative;
+  bottom: 110px;
+  color: white;
+  letter-spacing: 0.4em;
+  font-size: small;
+}
+.featured-heading-Two {
+  position: relative;
+  bottom: 110px;
+  color: white;
+  font-weight: 900;
+}

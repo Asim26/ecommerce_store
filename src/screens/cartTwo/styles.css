@@ -1,0 +1,29 @@
+.shipping-details {
+  margin-top: 6%;
+  padding-right: 4%;
+}
+.info-text {
+  margin-left: 2%;
+  text-decoration: none;
+}
+.bill-details {
+  background-color: #e5e5e5;
+  padding-top: 6%;
+  height: 750px;
+}
+.product-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">") !important ;
+}
+.cart-footer {
+  margin-top: 40%;
+  border-top: 2px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+}
