@@ -1,9 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
 import Home from "./screens/home";
-import About from "./screens/about";
-import NavBar from "./components/navbar";
-import SocialNavBar from "./components/socialnavbar";
 import MakeUp from "./screens/makeup";
 import HairCare from "./screens/haircare";
 import BodyBath from "./screens/bodybath";
@@ -15,19 +12,18 @@ import Checkout from "./screens/checkout";
 function AppRouter() {
   return (
     <>
-      {/* <Home /> */}
-      {/* <MakeUp /> */}
-      {/* <HairCare /> */}
-      {/* <BodyBath /> */}
-      {/* <CartOne /> */}
-      {/* <CartTwo /> */}
-      {/* <CartThree /> */}
-      <Checkout />
-
-      {/* <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/" element={<Home />} />
-      </Routes> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/cartthree" element={<CartThree />} />
+          <Route path="/carttwo" element={<CartTwo />} />
+          <Route path="/cartOne" element={<CartOne />} />
+          <Route path="/bodybath" element={<BodyBath />} />
+          <Route path="/haircare" element={<HairCare />} />
+          <Route path="/makeup" element={<MakeUp />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

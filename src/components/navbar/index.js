@@ -12,32 +12,32 @@ export default function NavBar() {
     {
       id: 1,
       title: "HOME",
-      link: "/home",
+      link: "/",
     },
     {
       id: 2,
       title: "SHOP",
-      link: "/shop",
+      link: "/bodybath",
     },
     {
       id: 3,
       title: "PRODUCTS",
-      link: "/products",
+      link: "/haircare",
     },
     {
       id: 4,
       title: "BLOG",
-      link: "/blog",
+      link: "#",
     },
     {
       id: 5,
       title: "LOOKBOOK",
-      link: "/lookbook",
+      link: "#",
     },
     {
       id: 6,
       title: "BUYNOW",
-      link: "/buynow",
+      link: "#",
     },
   ];
   return (
